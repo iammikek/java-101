@@ -1,0 +1,15 @@
+.gradle/
+.gradle-home/
+build/
+data/
+.tools/
+*.db
+.env
+.idea/
+*.iml
+.DS_Store
+out/
+.java_home_path
+test-output.log
+N.class
+N.java

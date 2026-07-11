@@ -1,0 +1,15 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8009:8009"
+    environment:
+      SERVER_PORT: 8009
+      SPRING_DATASOURCE_URL: jdbc:sqlite:/app/data/app.db
+      JWT_SECRET: docker-dev-secret
+      JWT_EXPIRE_MINUTES: 60
+    volumes:
+      - java101_data:/app/data
+
+volumes:
+  java101_data:

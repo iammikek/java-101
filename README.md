@@ -4,7 +4,7 @@ A step-by-step **Spring Boot + JPA** port of [fastAPI-101](https://github.com/ia
 
 **Audience:** Laravel developers learning JVM backends, or anyone comparing how Spring Boot delivers the same *-101 contract without Blade.
 
-**API-only:** Unlike [laravel-101](https://github.com/iammikek/laravel-101), this repo has **no `/shop`**. Spring Boot can render Thymeleaf, but this port stays **JSON API only** — pair it with [laravel-101's shop](https://github.com/iammikek/laravel-101) on another port, or with [react-101](https://github.com/iammikek/react-101) / [vue-101](https://github.com/iammikek/vue-101).
+**API-only:** Unlike [laravel-101](https://github.com/iammikek/laravel-101), this repo has **no `/shop`**. Spring Boot can render Thymeleaf, but this port stays **JSON API only** — pair it with [laravel-101's shop](https://github.com/iammikek/laravel-101) on another port, or with [react-101](https://github.com/iammikek/react-101) / [vue-101](https://github.com/iammikek/vue-101) / [alpine-101](https://github.com/iammikek/alpine-101).
 
 ---
 
@@ -213,12 +213,13 @@ Same response shapes. Same filters and pagination. Same `{ detail, code }` error
 | [flutter-101](https://github.com/iammikek/flutter-101) | Mobile / desktop | Flutter (iOS, macOS, Android) |
 | [react-101](https://github.com/iammikek/react-101) | Web browser | React 19, Vite, Vitest |
 | [vue-101](https://github.com/iammikek/vue-101) | Web browser | Vue 3, Vite, Pinia |
+| [alpine-101](https://github.com/iammikek/alpine-101) | Web browser | Alpine.js, Vite, Vitest |
 
 ### Suggested pairing
 
 - **From Laravel to JVM:** laravel-101 (8003) → java-101 (8009) — same API, different stack
 - **Shop + JVM API:** laravel-101 `/shop` + java-101 JSON on 8009
-- **Pair with a client:** [react-101](https://github.com/iammikek/react-101), [vue-101](https://github.com/iammikek/vue-101), or [flutter-101](https://github.com/iammikek/flutter-101)
+- **Pair with a client:** [react-101](https://github.com/iammikek/react-101), [vue-101](https://github.com/iammikek/vue-101), [alpine-101](https://github.com/iammikek/alpine-101), or [flutter-101](https://github.com/iammikek/flutter-101)
 - **Compare API-only backends:** java-101 (8009) vs [nest-101](https://github.com/iammikek/nest-101) (8006) / [express-101](https://github.com/iammikek/express-101) (8007)
 - **Compare JVM vs .NET:** java-101 (8009) vs [dotNet-101](https://github.com/iammikek/dotNet-101) (8010)
 
